@@ -10,6 +10,7 @@ namespace codeabbey
     {
         static void Main(string[] args)
         {
+            Abbey2.solve(); 
         }
     }
 }
