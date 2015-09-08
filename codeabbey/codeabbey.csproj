@@ -57,6 +57,7 @@
     <Content Include="Data\Abbey2_In.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Data\Abbey3_In.txt" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
