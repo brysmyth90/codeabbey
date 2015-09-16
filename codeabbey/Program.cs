@@ -10,12 +10,8 @@ namespace codeabbey
     {
         static void Main(string[] args)
         {
-            Abbey3 abbey3 = new Abbey3();
-            List<int> answers = abbey3.answer_it();
-            foreach (int i in answers)
-            {
-                Console.Write(i + " ");
-            }
+            Abbey7 abbey7 = new Abbey7();
+            abbey7.answer_it();
         }
     }
 }
