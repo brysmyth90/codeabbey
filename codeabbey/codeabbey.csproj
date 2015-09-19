@@ -45,9 +45,12 @@
     <Compile Include="Abbey3.cs" />
     <Compile Include="Abbey3b.cs" />
     <Compile Include="Abbey4.cs" />
+    <Compile Include="Abbey43.cs" />
     <Compile Include="Abbey5.cs" />
     <Compile Include="Abbey6.cs" />
     <Compile Include="Abbey7.cs" />
+    <Compile Include="Abbey8.cs" />
+    <Compile Include="Abbey28.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -60,10 +63,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\Abbey28_In.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\Abbey2_In.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Data\Abbey3_In.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Abbey43_In.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Data\Abbey4_In.txt">
@@ -76,6 +85,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Data\Abbey7_In.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Abbey8_In.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Abbey41_In.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
