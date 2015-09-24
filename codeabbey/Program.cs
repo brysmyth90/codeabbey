@@ -11,9 +11,9 @@ namespace codeabbey
     {
         static void Main(string[] args)
         {
-            Abbey43 abbey43 = new Abbey43();
-            List<int> ans = abbey43.answer_it();
-            using (var writer = new StreamWriter(@"Data\\Abbey43_Out.txt"))
+            Abbey13 abbey13 = new Abbey13();
+            List<int> ans = abbey13.answer_it();
+            using (var writer = new StreamWriter(@"Data\\Abbey13_Out.txt"))
             {
                 foreach (int i in ans)
                 {

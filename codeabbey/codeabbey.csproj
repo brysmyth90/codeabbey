@@ -41,11 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abbey13.cs" />
     <Compile Include="Abbey2.cs" />
     <Compile Include="Abbey3.cs" />
     <Compile Include="Abbey3b.cs" />
     <Compile Include="Abbey4.cs" />
-    <Compile Include="Abbey43.cs" />
     <Compile Include="Abbey5.cs" />
     <Compile Include="Abbey6.cs" />
     <Compile Include="Abbey7.cs" />
@@ -63,6 +63,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\Abbey13_In.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\Abbey28_In.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
